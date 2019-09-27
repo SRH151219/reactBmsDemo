@@ -1,0 +1,56 @@
+.home{
+    width: 100%;
+    height: 100%;
+    // background: lightpink;
+    display: flex;
+    flex-direction: column;
+    .main{
+        flex: 1;
+        // background: lightcyan;
+        display: flex;
+        .leftNav{
+            width: 180px;
+            height: 100%;
+            // background: orange;
+        }
+        .content{
+            flex: 1;
+            height: 100%;
+            background: #ccc;
+            padding: 10px;
+        }
+    }
+    .footer{
+        width: 100%;
+        height: 80px;
+        background: #333;
+        text-align: center;
+        line-height: 80px;
+        color: #fff;
+    }
+}
+
+
+
+// 媒体查询
+// 小于768
+// @media screen and (max-width:768px) {
+//     .leftNav{
+//         display: none;
+//     }
+// }
+
+// 768 - 992
+// @media screen and (min-width:768px) {
+
+// }
+
+// /* 992-1200px */
+// @media screen and (min-width:992px) {
+
+// }
+
+// /* 大于1200 px */
+// @media screen and (min-width:1200px) {
+
+// }
